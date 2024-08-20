@@ -25,11 +25,6 @@ spec:
           ports:
             - containerPort: 80
               name: http
-          resizePolicy:
-          - resourceName: "memory"
-            restartPolicy: "RestartContainer"
-          - resourceName: "cpu"
-            restartPolicy: "NotRequired"
           resources:
             requests:
               memory: 15Mi
